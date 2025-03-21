@@ -88,4 +88,9 @@ export function exportData() {
     console.log('Exported data:', jsonData);
 }
 
-document.getElementById('added').addEventListener('click', exportData);
+
+function scheduleExportData() {
+}
+
+// Start the scheduling
+scheduleExportData();
